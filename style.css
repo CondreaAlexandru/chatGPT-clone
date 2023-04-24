@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #343541;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputDiv {
+    background-color: #343541;
+    position: sticky;
+    width: 100%;
+    text-align: center;
+}
+
+.results {
+    width: 60%;
+    color: white;
+    background-color: #3E3F4B;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 18px;
+    float: right;
+}
+
+.results2 {
+    width: 60%;
+    color: white;
+    background-color: #3E3F4B;
+    padding: 10px;
+    border-radius: 15px;
+    float: left;
+    font-size: 18px;
+}
+
+#answer {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+
+#prompt, button{
+    color: white;
+    background-color: #3E3F4B;
+    padding: 10px 15px;
+    border: 1px solid #3E3F4B;
+    border-radius: 15px;
+}
